@@ -4596,11 +4596,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/bilgehandemirkaya/RiderProjects/ICTCBTD/CBTDWeb/CBTDWeb.csproj",
+      "projectUniqueName": "/Users/bilgehandemirkaya/Workspace/ICTFinland-ASPNETDEMO/CBTDWeb/CBTDWeb.csproj",
       "projectName": "CBTDWeb",
-      "projectPath": "/Users/bilgehandemirkaya/RiderProjects/ICTCBTD/CBTDWeb/CBTDWeb.csproj",
+      "projectPath": "/Users/bilgehandemirkaya/Workspace/ICTFinland-ASPNETDEMO/CBTDWeb/CBTDWeb.csproj",
       "packagesPath": "/Users/bilgehandemirkaya/.nuget/packages/",
-      "outputPath": "/Users/bilgehandemirkaya/RiderProjects/ICTCBTD/CBTDWeb/obj/",
+      "outputPath": "/Users/bilgehandemirkaya/Workspace/ICTFinland-ASPNETDEMO/CBTDWeb/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/bilgehandemirkaya/.nuget/NuGet/NuGet.Config"
@@ -4615,8 +4615,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/bilgehandemirkaya/RiderProjects/ICTCBTD/DataAccess/DataAccess.csproj": {
-              "projectPath": "/Users/bilgehandemirkaya/RiderProjects/ICTCBTD/DataAccess/DataAccess.csproj"
+            "/Users/bilgehandemirkaya/Workspace/ICTFinland-ASPNETDEMO/DataAccess/DataAccess.csproj": {
+              "projectPath": "/Users/bilgehandemirkaya/Workspace/ICTFinland-ASPNETDEMO/DataAccess/DataAccess.csproj"
             }
           }
         }

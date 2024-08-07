@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "e7IUIPm2DxPyJHJdX2YV8c+3AGWdk5KZ9EMTvaW+im82bUDlCqdWkNMIFwvrramcX783JHuMkDQ70SJXz2/7dw==",
+  "dgSpecHash": "Nb10aaMovolnykjViBHVxL15++TMBqqHdhJhEo0DIpYTZD2tM4LwVYKwdrSyTtOqGW/sK3bcEbWCaDf97DhnHw==",
   "success": true,
-  "projectFilePath": "/Users/bilgehandemirkaya/RiderProjects/ICTCBTD/DataAccess/DataAccess.csproj",
+  "projectFilePath": "/Users/bilgehandemirkaya/Workspace/ICTFinland-ASPNETDEMO/DataAccess/DataAccess.csproj",
   "expectedPackageFiles": [
     "/Users/bilgehandemirkaya/.nuget/packages/azure.core/1.35.0/azure.core.1.35.0.nupkg.sha512",
     "/Users/bilgehandemirkaya/.nuget/packages/azure.identity/1.10.3/azure.identity.1.10.3.nupkg.sha512",

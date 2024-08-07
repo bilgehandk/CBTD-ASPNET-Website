@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/bilgehandemirkaya/RiderProjects/ICTCBTD/Utility/Utility.csproj": {}
+    "/Users/bilgehandemirkaya/Workspace/ICTFinland-ASPNETDEMO/Utility/Utility.csproj": {}
   },
   "projects": {
-    "/Users/bilgehandemirkaya/RiderProjects/ICTCBTD/Utility/Utility.csproj": {
+    "/Users/bilgehandemirkaya/Workspace/ICTFinland-ASPNETDEMO/Utility/Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/bilgehandemirkaya/RiderProjects/ICTCBTD/Utility/Utility.csproj",
+        "projectUniqueName": "/Users/bilgehandemirkaya/Workspace/ICTFinland-ASPNETDEMO/Utility/Utility.csproj",
         "projectName": "Utility",
-        "projectPath": "/Users/bilgehandemirkaya/RiderProjects/ICTCBTD/Utility/Utility.csproj",
+        "projectPath": "/Users/bilgehandemirkaya/Workspace/ICTFinland-ASPNETDEMO/Utility/Utility.csproj",
         "packagesPath": "/Users/bilgehandemirkaya/.nuget/packages/",
-        "outputPath": "/Users/bilgehandemirkaya/RiderProjects/ICTCBTD/Utility/obj/",
+        "outputPath": "/Users/bilgehandemirkaya/Workspace/ICTFinland-ASPNETDEMO/Utility/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/bilgehandemirkaya/.nuget/NuGet/NuGet.Config"

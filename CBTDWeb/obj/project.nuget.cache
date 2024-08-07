@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oAjcNSefs81NsJMpbND2/H6VHiyyRRYu+Na1XV1WFaMCyHCNX7TTLXuHjKoe2bVxYteupMxRKwevJSNGMCat9A==",
+  "dgSpecHash": "4WE3UrRiEUYYiA6bIuzSLE1odcpSDQDZ8d2fGtpDNIrmH3yroRqS8v7Mk5STgW6dlt1IvfUpIsSiLJmaWa1tew==",
   "success": true,
-  "projectFilePath": "/Users/bilgehandemirkaya/RiderProjects/ICTCBTD/CBTDWeb/CBTDWeb.csproj",
+  "projectFilePath": "/Users/bilgehandemirkaya/Workspace/ICTFinland-ASPNETDEMO/CBTDWeb/CBTDWeb.csproj",
   "expectedPackageFiles": [
     "/Users/bilgehandemirkaya/.nuget/packages/azure.core/1.35.0/azure.core.1.35.0.nupkg.sha512",
     "/Users/bilgehandemirkaya/.nuget/packages/azure.identity/1.10.3/azure.identity.1.10.3.nupkg.sha512",

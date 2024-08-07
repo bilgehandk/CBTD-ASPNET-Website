@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/bilgehandemirkaya/RiderProjects/ICTCBTD/Infrastructure/Infrastructure.csproj": {}
+    "/Users/bilgehandemirkaya/Workspace/ICTFinland-ASPNETDEMO/Infrastructure/Infrastructure.csproj": {}
   },
   "projects": {
-    "/Users/bilgehandemirkaya/RiderProjects/ICTCBTD/Infrastructure/Infrastructure.csproj": {
+    "/Users/bilgehandemirkaya/Workspace/ICTFinland-ASPNETDEMO/Infrastructure/Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/bilgehandemirkaya/RiderProjects/ICTCBTD/Infrastructure/Infrastructure.csproj",
+        "projectUniqueName": "/Users/bilgehandemirkaya/Workspace/ICTFinland-ASPNETDEMO/Infrastructure/Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "/Users/bilgehandemirkaya/RiderProjects/ICTCBTD/Infrastructure/Infrastructure.csproj",
+        "projectPath": "/Users/bilgehandemirkaya/Workspace/ICTFinland-ASPNETDEMO/Infrastructure/Infrastructure.csproj",
         "packagesPath": "/Users/bilgehandemirkaya/.nuget/packages/",
-        "outputPath": "/Users/bilgehandemirkaya/RiderProjects/ICTCBTD/Infrastructure/obj/",
+        "outputPath": "/Users/bilgehandemirkaya/Workspace/ICTFinland-ASPNETDEMO/Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/bilgehandemirkaya/.nuget/NuGet/NuGet.Config"
