@@ -13,6 +13,50 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/bilgehandemirkaya/Workspace/ICTFinland-ASPNETDEMO/CBTDWeb/wwwroot/images/CBTD.png",
+      "PackagePath": "staticwebassets/images/CBTD.png"
+    },
+    {
+      "Id": "/Users/bilgehandemirkaya/Workspace/ICTFinland-ASPNETDEMO/CBTDWeb/wwwroot/images/OrderConfirmation.png",
+      "PackagePath": "staticwebassets/images/OrderConfirmation.png"
+    },
+    {
+      "Id": "/Users/bilgehandemirkaya/Workspace/ICTFinland-ASPNETDEMO/CBTDWeb/wwwroot/images/PlaceHolderImage.jpg",
+      "PackagePath": "staticwebassets/images/PlaceHolderImage.jpg"
+    },
+    {
+      "Id": "/Users/bilgehandemirkaya/Workspace/ICTFinland-ASPNETDEMO/CBTDWeb/wwwroot/images/products/Cheetos.jpg",
+      "PackagePath": "staticwebassets/images/products/Cheetos.jpg"
+    },
+    {
+      "Id": "/Users/bilgehandemirkaya/Workspace/ICTFinland-ASPNETDEMO/CBTDWeb/wwwroot/images/products/Coke.jpg",
+      "PackagePath": "staticwebassets/images/products/Coke.jpg"
+    },
+    {
+      "Id": "/Users/bilgehandemirkaya/Workspace/ICTFinland-ASPNETDEMO/CBTDWeb/wwwroot/images/products/Doritos.jpg",
+      "PackagePath": "staticwebassets/images/products/Doritos.jpg"
+    },
+    {
+      "Id": "/Users/bilgehandemirkaya/Workspace/ICTFinland-ASPNETDEMO/CBTDWeb/wwwroot/images/products/HonestTea.jpg",
+      "PackagePath": "staticwebassets/images/products/HonestTea.jpg"
+    },
+    {
+      "Id": "/Users/bilgehandemirkaya/Workspace/ICTFinland-ASPNETDEMO/CBTDWeb/wwwroot/images/products/Menage.jpg",
+      "PackagePath": "staticwebassets/images/products/Menage.jpg"
+    },
+    {
+      "Id": "/Users/bilgehandemirkaya/Workspace/ICTFinland-ASPNETDEMO/CBTDWeb/wwwroot/images/products/Sprite.jpg",
+      "PackagePath": "staticwebassets/images/products/Sprite.jpg"
+    },
+    {
+      "Id": "/Users/bilgehandemirkaya/Workspace/ICTFinland-ASPNETDEMO/CBTDWeb/wwwroot/images/products/YellowTail.png",
+      "PackagePath": "staticwebassets/images/products/YellowTail.png"
+    },
+    {
+      "Id": "/Users/bilgehandemirkaya/Workspace/ICTFinland-ASPNETDEMO/CBTDWeb/wwwroot/images/products/ZeroWater.jpg",
+      "PackagePath": "staticwebassets/images/products/ZeroWater.jpg"
+    },
+    {
       "Id": "/Users/bilgehandemirkaya/Workspace/ICTFinland-ASPNETDEMO/CBTDWeb/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },

@@ -20,12 +20,6 @@
                     <span asp-validation-for="ObjManifactor.Name" class="text-danger"></span>
 
                 </div>
-                <div class="form-floating py-2 col-12">
-                    <input asp-for="ObjManifactor.DisplayOrder" class="form-control border-0 shadow" />
-                    <label asp-for="ObjManifactor.DisplayOrder" class="ms-2">Display Order</label>
-                    <span asp-validation-for="ObjManifactor.DisplayOrder" class="text-danger"></span>
-
-                </div>
                 <!--You need to hide the Id (for edit mode, so the model knows which item you’re editing) -->
                 @if (Model.ObjManifactor.Id != 0)
                 {

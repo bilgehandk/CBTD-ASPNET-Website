@@ -13,6 +13,7 @@ namespace DataAccess
         }
 
         public DbSet<Category> Categories { get; set; }  //the physical DB table will be named Categories
-        public DbSet<Manifactor> Manifactors { get; set; }  //the physical DB table will be named Categories
+        public DbSet<Manifactor> Manifactors { get; set; }  //the physical DB table will be named Manifactors
+        public DbSet<Product> Products { get; set; }  //the physical DB table will be named Product
     }
 }
