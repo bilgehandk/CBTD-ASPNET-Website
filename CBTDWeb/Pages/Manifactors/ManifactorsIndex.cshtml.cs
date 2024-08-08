@@ -9,12 +9,12 @@ namespace CBTDWeb.Pages.Manifactors
     {
 		private readonly UnitOfWork _unitOfWork;  //local instance of the database service
 
-		public List<Manifactor> objManifactorList;  //our UI front end will support looping through and displaying Categories retrieved from the database and stored in a List
+		public List<Manufacturer> objManifactorList;  //our UI front end will support looping through and displaying Categories retrieved from the database and stored in a List
 
 		public ManifactorsIndexModel(UnitOfWork unitOfWork)  //dependency injection of the database service
 		{
 			_unitOfWork = unitOfWork;
-			objManifactorList = new List<Manifactor>();
+			objManifactorList = new List<Manufacturer>();
 		}
 
 		public IActionResult OnGet()

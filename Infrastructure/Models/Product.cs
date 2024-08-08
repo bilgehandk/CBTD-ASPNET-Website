@@ -1,3 +1,4 @@
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -9,6 +10,7 @@ public class Product
     public int Id { get; set; }
 
     [Required]
+    [DisplayName("Manufacturer Name")]
     public string? Name { get; set; }
 
     [Required]
@@ -58,5 +60,5 @@ public class Product
     public Category? Category { get; set; }
 
     [ForeignKey("ManufacturerId")]
-    public Manifactor? Manufacturer { get; set; }
+    public Manufacturer? Manufacturer { get; set; }
 }

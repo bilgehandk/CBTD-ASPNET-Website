@@ -35,7 +35,7 @@ namespace DataAccess.DbInitializer
                 return; //DB has been seeded
             }
 
-            if (_db.Manifactors.Any())
+            if (_db.Manufacturers.Any())
             {
                 return;
             }
@@ -59,17 +59,17 @@ namespace DataAccess.DbInitializer
             }
             _db.SaveChanges();
 
-            var Manufacturers = new List<Manifactor>
+            var Manufacturers = new List<Manufacturer>
             {
-            new Manifactor { Name = "Coca Cola" },
-            new Manifactor { Name = "Yellow Tail"},
-            new Manifactor { Name = "Trinchero Family Estates" },
-            new Manifactor { Name = "Frito Lay" }
+            new Manufacturer { Name = "Coca Cola" },
+            new Manufacturer { Name = "Yellow Tail"},
+            new Manufacturer { Name = "Trinchero Family Estates" },
+            new Manufacturer { Name = "Frito Lay" }
             };
 
             foreach (var m in Manufacturers)
             {
-                _db.Manifactors.Add(m);
+                _db.Manufacturers.Add(m);
             }
             _db.SaveChanges();
 

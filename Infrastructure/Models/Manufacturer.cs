@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Infrastructure.Models;
 
-public class Manifactor
+public class Manufacturer
 {
     [Key]
     public int Id { get; set; }

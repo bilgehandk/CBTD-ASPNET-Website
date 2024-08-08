@@ -13,7 +13,7 @@ public class UnitOfWork : IUnitOfWork
     }
 
     private IGenericRepository<Category> _Category;
-    private IGenericRepository<Manifactor> _Manufacturer;
+    private IGenericRepository<Manufacturer> _Manufacturer;
     private IGenericRepository<Product> _Product;
         
     public IGenericRepository<Category> Category
@@ -30,14 +30,14 @@ public class UnitOfWork : IUnitOfWork
         }
     }
 
-    public IGenericRepository<Manifactor> Manufacturer
+    public IGenericRepository<Manufacturer> Manufacturer
     {
         get
         {
 
             if (_Manufacturer == null)
             {
-                _Manufacturer = new GenericRepository<Manifactor>(_dbContext);
+                _Manufacturer = new GenericRepository<Manufacturer>(_dbContext);
             }
 
             return _Manufacturer;

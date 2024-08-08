@@ -174,7 +174,7 @@
 
                         <div class="mt-1 form-text">Current picture</div>
 
-                        <img class="img-thumbnail" src="/@(Model.objProduct.ImageUrl)" />
+                        <img class="img-thumbnail" src="@Model.objProduct.ImageUrl" />
 
                     </div>
 
@@ -220,6 +220,76 @@
 
 </div>
 
+@section Scripts {
+    <script>
+        tinymce.init({
+            selector: 'textarea',
+            plugins: "lists",
+            menubar: "file edit format"
+        });
+
+        function ValidateInput() {
+            if (document.getElementById('txtName').value == "") {
+                Swal.fire('Error', 'Please Enter a Product Name', 'error');
+                return false;
+            }
+
+            if (document.getElementById('txtUPC').value == "") {
+                Swal.fire('Error', 'Please Enter a Product UPC', 'error');
+                return false;
+            }
+            if (document.getElementById('txtSize').value == "") {
+                Swal.fire('Error', 'Please Enter Product Size Information', 'error');
+                return false;
+            }
+
+            if ($('#txtUnitPrice').val() < .01) {
+                Swal.fire('Error', 'Please Enter a Unit Price Greater Than $.01', 'error');
+                return false;
+            }
+
+            if ($('#txtListPrice').val() < .01) {
+                Swal.fire('Error', 'Please Enter a List Price Greater Than $.01', 'error');
+                return false;
+            }
+
+            if ($('#txtHalfDozenPrice').val() < .01) {
+                Swal.fire('Error', 'Please Enter a Half Dozen+ Price Greater Than $.01', 'error');
+                return false;
+            }
+
+            if ($('#txtDozenPrice').val() < .01) {
+                Swal.fire('Error', 'Please Enter a Dozen+ Price Greater Than $.01', 'error');
+                return false;
+            }
+
+            if (tinyMCE.get('txtDesc').getContent() == "") {
+                Swal.fire('Error', 'Please Enter a Product Description', 'error');
+                return false;
+            }
+
+            if (document.getElementById("uploadBox").value == "") {
+                Swal.fire('Error', 'Please Select an Image', 'error')
+                return false
+            }
+
+            if ($('#ddlCategory').prop('selectedIndex') === 0) {
+                Swal.fire('Error', 'Please Select a Category', 'error');
+                return false;
+            }
+
+            if ($('#ddlManufacturer').prop('selectedIndex') === 0) {
+                Swal.fire('Error', 'Please Select a Manufacturer', 'error');
+                return false;
+            }
+            return true;
+        }
+    </script>
+}
 
 
 }
+
+
+
+

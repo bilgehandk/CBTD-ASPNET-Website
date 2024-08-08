@@ -9,7 +9,7 @@ namespace CBTDWeb.Pages.Manifactors
     {
         private readonly UnitOfWork _unitOfWork;
         [BindProperty]  //synchronizes form fields with values in code behind
-        public Manifactor? ObjManifactor { get; set; }
+        public Manufacturer? ObjManifactor { get; set; }
 
         public ManifactorsUpsertModel(UnitOfWork unitOfWork)  //dependency injection
         {
@@ -19,7 +19,7 @@ namespace CBTDWeb.Pages.Manifactors
         public IActionResult OnGet(int? id)
 
         {
-            ObjManifactor = new Manifactor();
+            ObjManifactor = new Manufacturer();
 
             //am I in edit mode?
             if (id != 0)

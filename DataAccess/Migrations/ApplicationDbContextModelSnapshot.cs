@@ -42,7 +42,7 @@ namespace DataAccess.Migrations
                     b.ToTable("Categories");
                 });
 
-            modelBuilder.Entity("Infrastructure.Models.Manifactor", b =>
+            modelBuilder.Entity("Infrastructure.Models.Manufacturer", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -56,7 +56,7 @@ namespace DataAccess.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Manifactors");
+                    b.ToTable("Manufacturers");
                 });
 
             modelBuilder.Entity("Infrastructure.Models.Product", b =>
@@ -323,7 +323,7 @@ namespace DataAccess.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Infrastructure.Models.Manifactor", "Manufacturer")
+                    b.HasOne("Infrastructure.Models.Manufacturer", "Manufacturer")
                         .WithMany()
                         .HasForeignKey("ManufacturerId")
                         .OnDelete(DeleteBehavior.Cascade)
