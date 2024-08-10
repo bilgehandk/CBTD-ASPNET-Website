@@ -12,6 +12,8 @@ namespace DataAccess
            
         }
 
+        
+        //Data
         public DbSet<Category> Categories { get; set; }  //the physical DB table will be named Categories
         public DbSet<Manufacturer> Manufacturers { get; set; }
         public DbSet<Product> Products { get; set; }
