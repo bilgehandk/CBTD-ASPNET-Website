@@ -1,8 +1,6 @@
-using System.ComponentModel;
-using System.ComponentModel.DataAnnotations;
+﻿using Infrastructure.Models;
 using System.ComponentModel.DataAnnotations.Schema;
-
-namespace Infrastructure.Models;
+using System.ComponentModel.DataAnnotations;
 
 public class Product
 {
@@ -10,7 +8,7 @@ public class Product
     public int Id { get; set; }
 
     [Required]
-    [DisplayName("Manufacturer Name")]
+    [Display(Name = "Manufacturer Name")]
     public string? Name { get; set; }
 
     [Required]

@@ -25,8 +25,12 @@
       "PackagePath": "staticwebassets/images/PlaceHolderImage.jpg"
     },
     {
-      "Id": "/Users/bilgehandemirkaya/Workspace/ICTFinland-ASPNETDEMO/CBTDWeb/wwwroot/images/products/1.jpg",
-      "PackagePath": "staticwebassets/images/products/1.jpg"
+      "Id": "/Users/bilgehandemirkaya/Workspace/ICTFinland-ASPNETDEMO/CBTDWeb/wwwroot/images/products/45b2cbcf-98e1-4556-b730-49ac288657f4.jpg",
+      "PackagePath": "staticwebassets/images/products/45b2cbcf-98e1-4556-b730-49ac288657f4.jpg"
+    },
+    {
+      "Id": "/Users/bilgehandemirkaya/Workspace/ICTFinland-ASPNETDEMO/CBTDWeb/wwwroot/images/products/6341f259-390a-4a37-82e4-c586cf9764b8.jpg",
+      "PackagePath": "staticwebassets/images/products/6341f259-390a-4a37-82e4-c586cf9764b8.jpg"
     },
     {
       "Id": "/Users/bilgehandemirkaya/Workspace/ICTFinland-ASPNETDEMO/CBTDWeb/wwwroot/images/products/Cheetos.jpg",
@@ -59,10 +63,6 @@
     {
       "Id": "/Users/bilgehandemirkaya/Workspace/ICTFinland-ASPNETDEMO/CBTDWeb/wwwroot/images/products/ZeroWater.jpg",
       "PackagePath": "staticwebassets/images/products/ZeroWater.jpg"
-    },
-    {
-      "Id": "/Users/bilgehandemirkaya/Workspace/ICTFinland-ASPNETDEMO/CBTDWeb/wwwroot/images/products/acc9aef5-035a-4d0e-9af6-aaa6d0e9fa93.jpg",
-      "PackagePath": "staticwebassets/images/products/acc9aef5-035a-4d0e-9af6-aaa6d0e9fa93.jpg"
     },
     {
       "Id": "/Users/bilgehandemirkaya/Workspace/ICTFinland-ASPNETDEMO/CBTDWeb/wwwroot/js/site.js",

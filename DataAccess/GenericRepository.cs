@@ -1,11 +1,11 @@
-using Infrastructure.Interfaces;
+﻿using Infrastructure.Interfaces;
 using Infrastructure.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 
 namespace DataAccess
 {
-	public class GenericRepository<T> : IGenericRepository<T> where T : class
+    public class GenericRepository<T> : IGenericRepository<T> where T : class
     {
         // By using ReadOnly ApplicationDbContext, you can have access to only
         // querying capabilities of DbContext. UnitOfWork writes

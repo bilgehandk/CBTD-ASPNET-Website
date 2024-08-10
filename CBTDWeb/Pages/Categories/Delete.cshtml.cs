@@ -7,13 +7,14 @@ namespace CBTDWeb.Pages.Categories
 {
     public class DeleteModel : PageModel
     {
-        private readonly UnitOfWork _unitOfWork;
+        private readonly UnitOfWork _UnitOfWork;
         [BindProperty]  //synchronizes form fields with values in code behind
-        public Category? objCategory { get; set; }
+        public Category objCategory { get; set; }
 
         public DeleteModel(UnitOfWork unitOfWork)  //dependency injection
         {
-            _unitOfWork = unitOfWork;
+            _UnitOfWork = unitOfWork;
+            objCategory = new Category();
         }
 
         public IActionResult OnGet(int? id)
@@ -24,7 +25,7 @@ namespace CBTDWeb.Pages.Categories
             //am I in edit mode?
             if (id != 0)
             {
-                objCategory = _unitOfWork.Category.GetById(id);
+                objCategory = _UnitOfWork.Category.GetById(id);
             }
 
             if (objCategory == null)  //nothing found in DB
@@ -35,20 +36,19 @@ namespace CBTDWeb.Pages.Categories
             //assuming I'm in create mode
             return Page();
         }
-        
         public IActionResult OnPost()
         {
             if (!ModelState.IsValid)
             {
                 return Page();
             }
-            
-            _unitOfWork.Category.Delete(objCategory);
+            _UnitOfWork.Category.Delete(objCategory);  //Removes from memory
             TempData["success"] = "Category Deleted Successfully";
-            _unitOfWork.Commit();
+            _UnitOfWork.Commit();   //saves to DB
 
             return RedirectToPage("./Index");
         }
+
 
     }
 }

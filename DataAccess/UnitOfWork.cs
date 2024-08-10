@@ -1,7 +1,6 @@
+﻿using DataAccess;
 using Infrastructure.Interfaces;
 using Infrastructure.Models;
-
-namespace DataAccess;
 
 public class UnitOfWork : IUnitOfWork
 {
@@ -15,7 +14,8 @@ public class UnitOfWork : IUnitOfWork
     private IGenericRepository<Category> _Category;
     private IGenericRepository<Manufacturer> _Manufacturer;
     private IGenericRepository<Product> _Product;
-        
+    private IGenericRepository<ApplicationUser> _ApplicationUser;
+
     public IGenericRepository<Category> Category
     {
         get
@@ -30,6 +30,32 @@ public class UnitOfWork : IUnitOfWork
         }
     }
 
+	public IGenericRepository<ApplicationUser> ApplicationUser
+	{
+		get
+		{
+
+			if (_ApplicationUser == null)
+			{
+				_ApplicationUser = new GenericRepository<ApplicationUser>(_dbContext);
+			}
+
+			return _ApplicationUser;
+		}
+	}
+	public IGenericRepository<Product> Product
+    {
+        get
+        {
+
+            if (_Product == null)
+            {
+                _Product = new GenericRepository<Product>(_dbContext);
+            }
+
+            return _Product;
+        }
+    }
     public IGenericRepository<Manufacturer> Manufacturer
     {
         get
@@ -41,21 +67,6 @@ public class UnitOfWork : IUnitOfWork
             }
 
             return _Manufacturer;
-        }
-    }
-    
-    
-    public IGenericRepository<Product> Product
-    {
-        get
-        {
-
-            if (_Product == null)
-            {
-                _Product = new GenericRepository<Product>(_dbContext);
-            }
-
-            return _Product;
         }
     }
 
@@ -78,3 +89,4 @@ public class UnitOfWork : IUnitOfWork
         _dbContext.Dispose();
     }
 }
+

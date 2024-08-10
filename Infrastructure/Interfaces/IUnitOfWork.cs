@@ -1,4 +1,4 @@
-using Infrastructure.Models;
+﻿using Infrastructure.Models;
 
 namespace Infrastructure.Interfaces
 {
@@ -8,7 +8,7 @@ namespace Infrastructure.Interfaces
         public IGenericRepository<Category> Category { get; }
         public IGenericRepository<Manufacturer> Manufacturer { get; }
         public IGenericRepository<Product> Product { get; }
-
+        public IGenericRepository<ApplicationUser> ApplicationUser { get; }
         //save changes to the data source
 
         int Commit();

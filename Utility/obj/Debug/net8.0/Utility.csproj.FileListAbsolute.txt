@@ -10,3 +10,4 @@
 /Users/bilgehandemirkaya/Workspace/ICTFinland-ASPNETDEMO/Utility/obj/Debug/net8.0/refint/Utility.dll
 /Users/bilgehandemirkaya/Workspace/ICTFinland-ASPNETDEMO/Utility/obj/Debug/net8.0/Utility.pdb
 /Users/bilgehandemirkaya/Workspace/ICTFinland-ASPNETDEMO/Utility/obj/Debug/net8.0/ref/Utility.dll
+/Users/bilgehandemirkaya/Workspace/ICTFinland-ASPNETDEMO/Utility/obj/Debug/net8.0/Utility.csproj.AssemblyReference.cache

@@ -1,4 +1,3 @@
-using DataAccess;
 using Infrastructure.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -14,8 +13,8 @@ namespace CBTDWeb.Pages
         public IndexModel(UnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;
-            objProductList = null;
-            objCategoryList = null;
+            objProductList = new List<Product>();
+            objCategoryList = new List<Category>();
         }
 
         public IActionResult OnGet()
@@ -27,3 +26,4 @@ namespace CBTDWeb.Pages
 
     }
 }
+    

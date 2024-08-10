@@ -9,11 +9,12 @@ namespace CBTDWeb.Pages.Categories
     {
         private readonly UnitOfWork _unitOfWork;
         [BindProperty]  //synchronizes form fields with values in code behind
-        public Category? objCategory { get; set; }
+        public Category objCategory { get; set; }
 
-        public UpsertModel(UnitOfWork unitOfWork)  //dependency injection
+        public UpsertModel(UnitOfWork unitOfWork) // dependency injection
         {
             _unitOfWork = unitOfWork;
+            objCategory = new Category();
         }
 
         public IActionResult OnGet(int? id)
@@ -35,7 +36,6 @@ namespace CBTDWeb.Pages.Categories
             //assuming I'm in create mode
             return Page();
         }
-        
         public IActionResult OnPost()
         {
             if (!ModelState.IsValid)
