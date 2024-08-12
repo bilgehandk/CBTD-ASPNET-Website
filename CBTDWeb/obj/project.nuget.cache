@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "XIJLbcQd/vcph2OTXaRdJdtMxstmaB9uNCTbtQB61yawmx8SlA0HHVshycde+UEZ8hEfSLmpgR1h+MaGUpM5WQ==",
+  "dgSpecHash": "63NxJUd4Fxnznqu58VsXNw+tLRXpwt9+w0qORN0iaxnpJZ7BCSt3Rwnu/Wddsc4BU13RnkllINMlWV86K/ezEg==",
   "success": true,
   "projectFilePath": "/Users/bilgehandemirkaya/Workspace/ICTFinland-ASPNETDEMO/CBTDWeb/CBTDWeb.csproj",
   "expectedPackageFiles": [
@@ -156,6 +156,7 @@
     "/Users/bilgehandemirkaya/.nuget/packages/nuget.projectmodel/6.9.1/nuget.projectmodel.6.9.1.nupkg.sha512",
     "/Users/bilgehandemirkaya/.nuget/packages/nuget.protocol/6.9.1/nuget.protocol.6.9.1.nupkg.sha512",
     "/Users/bilgehandemirkaya/.nuget/packages/nuget.versioning/6.9.1/nuget.versioning.6.9.1.nupkg.sha512",
+    "/Users/bilgehandemirkaya/.nuget/packages/stripe.net/45.7.0/stripe.net.45.7.0.nupkg.sha512",
     "/Users/bilgehandemirkaya/.nuget/packages/system.buffers/4.5.0/system.buffers.4.5.0.nupkg.sha512",
     "/Users/bilgehandemirkaya/.nuget/packages/system.codedom/5.0.0/system.codedom.5.0.0.nupkg.sha512",
     "/Users/bilgehandemirkaya/.nuget/packages/system.collections.immutable/7.0.0/system.collections.immutable.7.0.0.nupkg.sha512",

@@ -15,6 +15,10 @@ public class UnitOfWork : IUnitOfWork
     private IGenericRepository<Manufacturer> _Manufacturer;
     private IGenericRepository<Product> _Product;
     private IGenericRepository<ApplicationUser> _ApplicationUser;
+    private IGenericRepository<ShoppingCart> _ShoppingCart;
+    private IGenericRepository<ShoppingCartVM> _ShoppingCartVM;
+    private IGenericRepository<OrderDetails> _OrderDetails;
+    private IOrderHeaderRepository<OrderHeader> _OrderHeader;
 
     public IGenericRepository<Category> Category
     {
@@ -27,6 +31,62 @@ public class UnitOfWork : IUnitOfWork
             }
 
             return _Category;
+        }
+    }
+    
+    public IGenericRepository<OrderDetails> OrderDetails
+    {
+        get
+        {
+
+            if (_OrderDetails == null)
+            {
+                _OrderDetails = new GenericRepository<OrderDetails>(_dbContext);
+            }
+
+            return _OrderDetails;
+        }
+    }
+
+    public IGenericRepository<ShoppingCartVM> ShoppingCartVM
+    {
+        get
+        {
+
+            if (_ShoppingCartVM == null)
+            {
+                _ShoppingCartVM = new GenericRepository<ShoppingCartVM>(_dbContext);
+            }
+
+            return _ShoppingCartVM;
+        }
+    }
+    
+    public IOrderHeaderRepository<OrderHeader> OrderHeader
+    {
+        get
+        {
+
+            if (_OrderHeader == null)
+            {
+                _OrderHeader = new OrderHeaderRepository(_dbContext);
+            }
+
+            return _OrderHeader;
+        }
+    }
+    
+    public IGenericRepository<ShoppingCart> ShoppingCart
+    {
+        get
+        {
+
+            if (_ShoppingCart == null)
+            {
+                _ShoppingCart = new GenericRepository<ShoppingCart>(_dbContext);
+            }
+
+            return _ShoppingCart;
         }
     }
 

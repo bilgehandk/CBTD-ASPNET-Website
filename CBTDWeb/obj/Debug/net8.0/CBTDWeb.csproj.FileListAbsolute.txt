@@ -270,3 +270,4 @@
 /Users/bilgehandemirkaya/Workspace/ICTFinland-ASPNETDEMO/CBTDWeb/bin/Debug/net8.0/BouncyCastle.Cryptography.dll
 /Users/bilgehandemirkaya/Workspace/ICTFinland-ASPNETDEMO/CBTDWeb/bin/Debug/net8.0/MailKit.dll
 /Users/bilgehandemirkaya/Workspace/ICTFinland-ASPNETDEMO/CBTDWeb/bin/Debug/net8.0/MimeKit.dll
+/Users/bilgehandemirkaya/Workspace/ICTFinland-ASPNETDEMO/CBTDWeb/bin/Debug/net8.0/Stripe.net.dll

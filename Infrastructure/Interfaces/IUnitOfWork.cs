@@ -9,6 +9,17 @@ namespace Infrastructure.Interfaces
         public IGenericRepository<Manufacturer> Manufacturer { get; }
         public IGenericRepository<Product> Product { get; }
         public IGenericRepository<ApplicationUser> ApplicationUser { get; }
+        public IGenericRepository<ShoppingCart> ShoppingCart { get; }
+        public IGenericRepository<ShoppingCartVM> ShoppingCartVM { get; }
+        public IGenericRepository<OrderDetails> OrderDetails { get; }
+        public IOrderHeaderRepository<OrderHeader> OrderHeader { get; }
+        
+        
+       
+
+
+        
+        
         //save changes to the data source
 
         int Commit();

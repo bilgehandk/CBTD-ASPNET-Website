@@ -2610,6 +2610,23 @@
           "lib/netstandard2.0/NuGet.Versioning.dll": {}
         }
       },
+      "Stripe.net/45.7.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
+          "System.Configuration.ConfigurationManager": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Stripe.net.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Stripe.net.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Buffers/4.5.0": {
         "type": "package",
         "compile": {
@@ -3342,6 +3359,7 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.7",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.7",
           "MimeKit": "4.7.1",
+          "Stripe.net": "45.7.0",
           "Utility": "1.0.0"
         },
         "compile": {
@@ -3359,7 +3377,8 @@
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
           "Microsoft.Extensions.Identity.Stores": "8.0.7",
           "Microsoft.VisualStudio.Web.CodeGenerators.Mvc": "8.0.3",
-          "MimeKit": "4.7.1"
+          "MimeKit": "4.7.1",
+          "Stripe.net": "45.7.0"
         },
         "compile": {
           "bin/placeholder/Infrastructure.dll": {}
@@ -3375,7 +3394,8 @@
           "MailKit": "4.7.1.1",
           "Microsoft.AspNetCore.Identity.UI": "8.0.7",
           "Microsoft.Extensions.Configuration": "8.0.0",
-          "MimeKit": "4.7.1"
+          "MimeKit": "4.7.1",
+          "Stripe.net": "45.7.0"
         },
         "compile": {
           "bin/placeholder/Utility.dll": {}
@@ -7757,6 +7777,30 @@
         "nuget.versioning.nuspec"
       ]
     },
+    "Stripe.net/45.7.0": {
+      "sha512": "Y7CM6hnEWoS/CskZYYAa7sCeWNUsfcTJixTgBd5x3Nkuq/aqimge9oZukdRQLSnRQHiC8hZRE1rUJ2Zi0+40Pw==",
+      "type": "package",
+      "path": "stripe.net/45.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "icon.png",
+        "lib/net461/Stripe.net.dll",
+        "lib/net461/Stripe.net.xml",
+        "lib/net5.0/Stripe.net.dll",
+        "lib/net5.0/Stripe.net.xml",
+        "lib/net6.0/Stripe.net.dll",
+        "lib/net6.0/Stripe.net.xml",
+        "lib/netcoreapp3.1/Stripe.net.dll",
+        "lib/netcoreapp3.1/Stripe.net.xml",
+        "lib/netstandard2.0/Stripe.net.dll",
+        "lib/netstandard2.0/Stripe.net.xml",
+        "stripe.net.45.7.0.nupkg.sha512",
+        "stripe.net.nuspec"
+      ]
+    },
     "System.Buffers/4.5.0": {
       "sha512": "pL2ChpaRRWI/p4LXyy4RgeWlYF2sgfj/pnVMvBqwNFr5cXg7CXNnWZWxrOONLg8VGdFB8oB+EG2Qw4MLgTOe+A==",
       "type": "package",
@@ -9200,7 +9244,8 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.7",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.7",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.3",
-      "MimeKit >= 4.7.1"
+      "MimeKit >= 4.7.1",
+      "Stripe.net >= 45.7.0"
     ]
   },
   "packageFolders": {
@@ -9275,6 +9320,10 @@
           "MimeKit": {
             "target": "Package",
             "version": "[4.7.1, )"
+          },
+          "Stripe.net": {
+            "target": "Package",
+            "version": "[45.7.0, )"
           }
         },
         "imports": [

@@ -60,6 +60,10 @@
             "MimeKit": {
               "target": "Package",
               "version": "[4.7.1, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[45.7.0, )"
             }
           },
           "imports": [
@@ -135,6 +139,10 @@
             "MimeKit": {
               "target": "Package",
               "version": "[4.7.1, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[45.7.0, )"
             }
           },
           "imports": [
@@ -206,6 +214,10 @@
             "MimeKit": {
               "target": "Package",
               "version": "[4.7.1, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[45.7.0, )"
             }
           },
           "imports": [

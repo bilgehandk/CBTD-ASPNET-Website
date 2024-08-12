@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Cy9qYxwl37csz5+PiONplyqzqCTK9ISS9fEp42oTh024JcIbveMjkRV0a89Bq50e5VdspdaINse7a6BPtXCNKg==",
+  "dgSpecHash": "QTCE+AtcmTX4L9m1xzW/FDwXupy9JQMIajbj5YAcjQVKiO0WxLlJof8vyBhkpWkwclSr4kprqpgCUm62Dfh7vQ==",
   "success": true,
   "projectFilePath": "/Users/bilgehandemirkaya/Workspace/ICTFinland-ASPNETDEMO/DataAccess/DataAccess.csproj",
   "expectedPackageFiles": [
@@ -152,6 +152,7 @@
     "/Users/bilgehandemirkaya/.nuget/packages/nuget.projectmodel/6.9.1/nuget.projectmodel.6.9.1.nupkg.sha512",
     "/Users/bilgehandemirkaya/.nuget/packages/nuget.protocol/6.9.1/nuget.protocol.6.9.1.nupkg.sha512",
     "/Users/bilgehandemirkaya/.nuget/packages/nuget.versioning/6.9.1/nuget.versioning.6.9.1.nupkg.sha512",
+    "/Users/bilgehandemirkaya/.nuget/packages/stripe.net/45.7.0/stripe.net.45.7.0.nupkg.sha512",
     "/Users/bilgehandemirkaya/.nuget/packages/system.buffers/4.5.0/system.buffers.4.5.0.nupkg.sha512",
     "/Users/bilgehandemirkaya/.nuget/packages/system.codedom/5.0.0/system.codedom.5.0.0.nupkg.sha512",
     "/Users/bilgehandemirkaya/.nuget/packages/system.collections.immutable/7.0.0/system.collections.immutable.7.0.0.nupkg.sha512",
