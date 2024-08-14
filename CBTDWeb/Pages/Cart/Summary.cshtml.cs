@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Stripe.Checkout;
 using Utility;
 
-namespace CBTDWeb.Pages.Carts;
+namespace CBTDWeb.Pages.Cart;
 
 public class SummaryModel : PageModel
 {
@@ -91,14 +91,15 @@ public class SummaryModel : PageModel
     _unitOfWork.ShoppingCart.Delete(ShoppingCartVM.cartItems);
     _unitOfWork.Commit();
 
-    var domain = "https://localhost:7025/";
+    var domain = "http://localhost:7025/";
+    var homePage = "http://localhost:5158/";
     var options = new SessionCreateOptions
     {
         PaymentMethodTypes = new List<string> { "card" },
         LineItems = new List<SessionLineItemOptions>(),
         Mode = "payment",
-        SuccessUrl = domain + $"cart/OrderConfirmation?Orderid={ShoppingCartVM.OrderHeader.Id}",
-        CancelUrl = domain + $"cart/index",
+        SuccessUrl = homePage + $"Cart/OrderConfirmation?Orderid={ShoppingCartVM.OrderHeader.Id}",
+        CancelUrl = homePage + $"Cart/Index",
     };
 
     foreach (var item in ShoppingCartVM.cartItems)

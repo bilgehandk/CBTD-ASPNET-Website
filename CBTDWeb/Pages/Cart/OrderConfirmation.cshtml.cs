@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Stripe.Checkout;
 
-namespace CBTDWeb.Pages.Carts;
+namespace CBTDWeb.Pages.Cart;
 
 
     public class OrderConfirmationModel : PageModel

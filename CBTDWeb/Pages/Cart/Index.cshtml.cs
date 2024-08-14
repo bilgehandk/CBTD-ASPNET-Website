@@ -3,7 +3,7 @@ using Infrastructure.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace CBTDWeb.Pages.Carts;
+namespace CBTDWeb.Pages.Cart;
 
 public class IndexModel : PageModel
 {
